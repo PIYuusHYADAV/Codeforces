@@ -92,7 +92,7 @@ public class Graph {
         StringBuilder sb = new StringBuilder();
         int i = 0;
         int found = 0;
-        while(found < totalEdges && i < list.size())
+        while(found < totalEdges && i < list.size())    
         {
             long key = list.get(i);
             int a = (int)(key / (numberOfNodes+1));
